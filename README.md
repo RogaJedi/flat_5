@@ -1,16 +1,17 @@
-# flat_5
+Программирование Корпоративных Систем
 
-A new Flutter project.
+ЭФБО-03-22 Колпащиков И. М.
 
-## Getting Started
+# Практика №5
 
-This project is a starting point for a Flutter application.
+Главная страница:
 
-A few resources to get you started if this is your first Flutter project:
+![alt_text](https://github.com/RogaJedi/flat_5/blob/master/глав_прак_5.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Страница избранного:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![alt_text](https://github.com/RogaJedi/flat_5/blob/master/избр_прак_5.png)
+
+Страница профиля:
+
+![alt_text](https://github.com/RogaJedi/flat_5/blob/master/проф_прак_5.png)
