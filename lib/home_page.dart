@@ -15,7 +15,7 @@ final Note Sample1 = Note(
 
 final Note Sample2 = Note(
   name: 'Unmatched',
-  text: 'Настольная игра про сражения величайших легенд.',
+  text: 'Настольная игра про сражения легенд.',
   imageUrl:
   'https://hobbygames.ru/image/data/Gaga/Unmatched_Bitva_Legend/UnMatched.jpg',
   fullinfo:
