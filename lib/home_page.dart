@@ -77,42 +77,6 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
-  void _removeNote(int index) async {
-    bool confirm = await _confirmDialog(context);
-    if (confirm) {
-      setState(() {
-        notes.removeAt(index);
-      });
-    }
-  }
-
-  Future<bool> _confirmDialog(BuildContext context) async {
-    return await showDialog(
-      context: context,
-      builder: (BuildContext context) {
-        return AlertDialog(
-          title: Text('Подтверждение удаления'),
-          content: Text('Вы уверены, что хотите удалить эту позицию?'),
-          actions: <Widget>[
-            TextButton(
-              child: Text('Нет'),
-              onPressed: () {
-                Navigator.of(context).pop(false);
-              },
-            ),
-            TextButton(
-              child: Text('Да'),
-              onPressed: () {
-                Navigator.of(context).pop(true);
-              },
-            ),
-          ],
-        );
-      },
-    ) ??
-        false;
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
