@@ -8,9 +8,9 @@
 
 ![alt_text](https://github.com/RogaJedi/flat_5/blob/master/глав_прак_5.png)
 
-Страница избранного:
+Страница избранного и демонстрация функционала:
 
-![alt_text](https://github.com/RogaJedi/flat_5/blob/master/избр_прак_5.png)
+![alt_text](https://github.com/RogaJedi/flat_5/blob/master/flat_5_demo.gif)
 
 Страница профиля:
 
