@@ -4,15 +4,11 @@ class BoardGameCard extends StatelessWidget {
   final String name;
   final String imageUrl;
   final String shortDescription;
-  //final VoidCallback onTap;
-  //final VoidCallback onLike; // Новый параметр для удаления
 
   BoardGameCard({
     required this.name,
     required this.imageUrl,
     required this.shortDescription,
-    //required this.onTap,
-    //required this.onLike, // Инициализация нового параметра
   });
 
   @override
@@ -32,8 +28,6 @@ class BoardGameCard extends StatelessWidget {
                   width: double.infinity,
                   fit: BoxFit.cover,
                   errorBuilder: (context, error, stackTrace) {
-                    print(imageUrl);
-                    print(error);
                     return const Icon(
                       Icons.error,
                       color: Colors.red,
